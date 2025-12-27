@@ -1,5 +1,5 @@
 {
-  "name": "test-utils",
+  "name": "@zengzizhao/test-utils",
   "private": false,
   "version": "0.0.1",
   "description": "工具库",
