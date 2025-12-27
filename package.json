@@ -16,6 +16,9 @@
   },
   "homepage": "https://github.com/Zengzzhao/test-utils",
   "bugs": "https://github.com/Zengzzhao/test-utils/issues",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist"
   ],
