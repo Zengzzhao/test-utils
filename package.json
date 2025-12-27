@@ -36,9 +36,11 @@
   },
   "type": "module",
   "scripts": {
-    "build": "tsdown"
+    "build": "tsdown",
+    "release": "pnpm tsdown && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
     "tsdown": "^0.18.3",
     "typescript": "^5.9.3"
   }
