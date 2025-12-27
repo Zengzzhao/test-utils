@@ -1,0 +1,42 @@
+{
+  "name": "test-utils",
+  "private": false,
+  "version": "0.0.1",
+  "description": "工具库",
+  "keywords": [
+    "utils",
+    "tool"
+  ],
+  "author": "zengzizhao",
+  "license": "ISC",
+  "packageManager": "pnpm@10.19.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zengzzhao/test-utils.git"
+  },
+  "homepage": "https://github.com/Zengzzhao/test-utils",
+  "bugs": "https://github.com/Zengzzhao/test-utils/issues",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsdown"
+  },
+  "devDependencies": {
+    "tsdown": "^0.18.3",
+    "typescript": "^5.9.3"
+  }
+}
