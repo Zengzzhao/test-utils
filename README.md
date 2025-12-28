@@ -1,6 +1,23 @@
+<p align="center">
+   <img width="150px" src="./logo.avif" alt="zzz logo" />
+</p>
+
 # @zengzizhao/test-utils
 
-一个轻量级的 TypeScript 工具函数库，支持 Node.js 和浏览器环境。
+[npm-version-src]:https://img.shields.io/npm/v/@zengzizhao/test-utils?colorA=080f12&colorB=1fa669
+[npm-version-href]:https://www.npmjs.com/package/@zengzizhao/test-utils
+[npm-downloads-src]:https://img.shields.io/npm/dw/test-utils?colorA=080f12&colorB=1fa669
+[npm-downloads-href]:https://www.npmjs.com/package/@zengzizhao/test-utils
+
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+
+
+🚀 一个轻量级的 TypeScript 工具函数库，支持 Node.js 和浏览器环境。
+
+> [!IMPORTANT]
+> 该库旨在用于了解发包流程，并且是一项正在进行的工作。 预计未来版本中会有重大变化。
+
 
 ## 安装
 
